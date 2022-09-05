@@ -1,6 +1,6 @@
 import Switch from '@mui/material/Switch';
 
-import logo from "../public/assets/images/logo.png";
+import logo from "../public/assets/images/logo.svg";
 import Image from "next/image";
 
 const NavBar = () => {
@@ -11,10 +11,9 @@ const NavBar = () => {
           <Image
             src={logo}
             alt="Picture of the author"
-            width="40px"
+            width="120px"
             height="40px"
           />
-          <h2 className="text-xl pl-3">Sentra Website</h2>
         </div>
         <div className="w-4/12 text-center font-semibold">En<Switch/>In</div>
         <div className="w-4/12 text-right">
